@@ -1,3 +1,4 @@
+// average2 вычисляет среднее значение.
 package main
 
 import (
@@ -6,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(os.Args)
+	fmt.Println(os.Args[1:])
 }
